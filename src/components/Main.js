@@ -9,7 +9,15 @@ import NavBar from "./NavBar";
 class Main extends Component {
   constructor() {
     super();
-    this.state = { page: null };
+    this.state = { 
+      
+        pricing: [
+          {level: "Hobby", cost: 0},
+          {level: "Startup", cost: 10},
+          {level: "Enterprise", cost: 100}
+        ]
+        
+    };
   }
 
   render() {
