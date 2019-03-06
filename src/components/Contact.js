@@ -6,6 +6,7 @@ const Contact = () => (
     <p>Some information about contacting us.</p>
     <ul>
     <li>Email: randomemail@email.com</li>
+    <li>Tel: 01390325789</li>
     </ul>
   </div>
 );
